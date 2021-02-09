@@ -1,0 +1,16 @@
+
+.form {
+  display: inline-block;
+}
+.form label {
+  display: inline-block;
+  min-width: 5rem;
+  margin-right: 0.5rem;
+}
+.form input {
+  margin-right: 0.5rem;
+}
+.form fieldset {
+  border: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
