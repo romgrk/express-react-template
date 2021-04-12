@@ -23,7 +23,7 @@ function App() {
               key={r.path}
               path={r.path}
               render={() => {
-                const result = r.if(user)
+                const result = r.if ? r.if(user) : true
                 if (result)
                   return result
                 return r.render()
